@@ -28,5 +28,20 @@ samples, guidance on mobile development, and a full API reference.
 
 
 ### video
-<p align="center">https://github.com/Dipalig971/advflutterch2/assets/143181151/b163c03d-de53-4a83-8d0d-507220fa1d44</p>
+<p align="center">
+<video src = 'https://github.com/Dipalig971/advflutterch2/assets/143181151/b163c03d-de53-4a83-8d0d-507220fa1d44'>
+</p>
 
+<h2 align="center">2.4 CupertinoTabBar, CupertinoSlider & CupertinoSlidingSegmentedControl</h2>
+<p align="center">
+  <img src="https://github.com/Dipalig971/advflutterch2/assets/143181151/9d2c5c6f-6d36-4926-a856-2635dfd2fe1e" width=22% height=33%>
+   <img src="https://github.com/Dipalig971/advflutterch2/assets/143181151/6e2032e6-4d84-4e35-88bf-35f658246159" width=22% height=33%>
+ </p>
+
+
+### video
+
+<p align="center">
+<video src = 'https://github.com/Dipalig971/advflutterch2/assets/143181151/167e0da5-f9ce-4bd2-bfaf-79767ef70e0c'>
+</p>
+<video src = 'https://github.com/Dipalig971/advflutterch2/assets/143181151/b2911c7f-535b-4958-a3b8-53210452e61f'>
