@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 
 class CupertinoSliderProvider extends ChangeNotifier{
-  double index=0;
+  int index=0;
 
-  void SliderTap(double value){
-    index=value;
+  void SliderTap(String value){
+    index=int.parse(value);
     notifyListeners();
   }
 
