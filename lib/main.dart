@@ -6,6 +6,8 @@ import 'package:advflutterch2/screen/%20CupertinoTabBar/view/slider_screen.dart'
 import 'package:advflutterch2/screen/CupertinoSliver/view/Cupertino_List_section_screen.dart';
 import 'package:advflutterch2/screen/CupertinoSliver/view/Cupertino_list_section1.dart';
 import 'package:advflutterch2/screen/CupertinoSliver/view/custom_scroll.dart';
+import 'package:advflutterch2/screen/pageview/view/bottomnavigationbar/bottom_navigation_bar_screen.dart';
+import 'package:advflutterch2/screen/pageview/view/bottomnavigationbar/provider/bottom_navigation_provider.dart';
 import 'package:advflutterch2/screen/pageview/view/page_view_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -22,11 +24,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (context) => RangeSliderprovider(),)
+        ChangeNotifierProvider(create: (context) => RangeSliderprovider(),),
+        ChangeNotifierProvider(create: (context) => BottomNavigationBarProvider(),)
       ],
       builder:(context, child) =>  CupertinoApp(
         debugShowCheckedModeBanner: false,
-        home: SliderScreen(),
+        home: BottomNavigationScreen(),
       ),
     );
   }

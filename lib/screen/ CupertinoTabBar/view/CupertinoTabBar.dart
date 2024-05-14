@@ -12,9 +12,9 @@ class CupertinoTabBarScreen extends StatelessWidget {
       ),
       child: CupertinoTabScaffold(
         tabBar: CupertinoTabBar(items: const [
-          BottomNavigationBarItem(icon: Icon(CupertinoIcons.home)),
-          BottomNavigationBarItem(icon: Icon(CupertinoIcons.settings)),
-          BottomNavigationBarItem(icon: Icon(CupertinoIcons.heart)),
+          BottomNavigationBarItem(icon: Icon(CupertinoIcons.home), label: ''),
+          BottomNavigationBarItem(icon: Icon(CupertinoIcons.settings), label: ''),
+          BottomNavigationBarItem(icon: Icon(CupertinoIcons.heart), label: ''),
         ]),
         tabBuilder: (context, index) {
           return Center(
