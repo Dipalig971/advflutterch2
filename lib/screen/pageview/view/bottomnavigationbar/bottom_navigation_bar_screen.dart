@@ -9,40 +9,41 @@ class BottomNavigationScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        bottomNavigationBar: ResponsiveNavigationBar(
-          backgroundColor: Colors.black,
-      activeIconColor: Colors.black,
-      selectedIndex: Provider.of<BottomNavigationBarProvider>(context).index,
-      textStyle: const TextStyle(
-        color: Colors.white,
-        fontWeight: FontWeight.bold,
+      bottomNavigationBar: ResponsiveNavigationBar(
+        backgroundColor: Colors.black,
+        activeIconColor: Colors.black,
+        selectedIndex: Provider.of<BottomNavigationBarProvider>(context).index,
+        textStyle: const TextStyle(
+          color: Colors.white,
+          fontWeight: FontWeight.bold,
+        ),
+        navigationBarButtons: const [
+          NavigationBarButton(
+            text: 'home',
+            icon: Icons.home,
+          ),
+          NavigationBarButton(
+            text: 'Search',
+            icon: Icons.search,
+          ),
+          NavigationBarButton(
+            text: 'Add',
+            icon: Icons.add_box_outlined,
+          ),
+          NavigationBarButton(
+            text: 'Reels',
+            icon: Icons.video_call,
+          ),
+          NavigationBarButton(
+            text: 'Profile',
+            icon: Icons.person,
+          )
+        ],
+        onTabChange: (value) {
+          Provider.of<BottomNavigationBarProvider>(context, listen: false)
+              .changeBottomIndex(value);
+        },
       ),
-      navigationBarButtons: const [
-        NavigationBarButton(
-          text: 'home',
-          icon: Icons.home,
-        ),
-        NavigationBarButton(
-          text: 'Search',
-          icon: Icons.search,
-        ),
-        NavigationBarButton(
-          text: 'Add',
-          icon: Icons.add_box_outlined,
-        ),
-        NavigationBarButton(
-          text: 'Reels',
-          icon: Icons.video_call,
-        ),
-        NavigationBarButton(
-          text: 'Profile',
-          icon: Icons.person,
-        )
-      ],
-      onTabChange: (value) {
-        Provider.of<BottomNavigationBarProvider>(context,listen: false)
-            .changeBottomIndex(value);
-      },
-    ));
+    );
   }
 }
