@@ -14,6 +14,7 @@ import 'package:advflutterch2/screen/datepicker/ios/view/date_picker.dart';
 import 'package:advflutterch2/screen/pageview/view/bottomnavigationbar/bottom_navigation_bar_screen.dart';
 import 'package:advflutterch2/screen/pageview/view/bottomnavigationbar/provider/bottom_navigation_provider.dart';
 import 'package:advflutterch2/screen/pageview/view/page_view_screen.dart';
+import 'package:advflutterch2/screen/sliver_widets/view/sliver_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -23,30 +24,30 @@ void main() {
     ChangeNotifierProvider(create: (context) => RangeSliderprovider(),),
     ChangeNotifierProvider(create: (context) => BottomNavigationBarProvider(),),
     ChangeNotifierProvider(create: (context) => DatePickerProvider(),)
-  ],builder: (context, child) =>  MyApp(),));
+  ],builder: (context, child) =>  MyMaterialApp(),));
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MyCupertinoApp extends StatelessWidget {
+  const MyCupertinoApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return CupertinoApp(
+    return const CupertinoApp(
       debugShowCheckedModeBanner: false,
       home: DatePickerScreen(),
     );
   }
 }
 
-// class MyApp extends StatelessWidget {
-//   const MyApp({super.key});
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return  MaterialApp(
-//       debugShowCheckedModeBanner: false,
-//       home: Date_PickerScreen(),
-//     );
-//   }
-// }
+class MyMaterialApp extends StatelessWidget {
+  const MyMaterialApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return  const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SliverScreen(),
+    );
+  }
+}
 
