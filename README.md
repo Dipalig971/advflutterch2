@@ -77,3 +77,14 @@
    <img src="https://github.com/Dipalig971/advflutterch2/assets/143181151/f0db85a4-3ef7-4ed8-bc1d-8f365b52fc94" width=22% height=33%>
   <video src="https://github.com/Dipalig971/advflutterch2/assets/143181151/a9834083-5dbc-40ef-b46d-7fa81e2cf844">
 </div>
+
+<h2 align="center"> 2.8 Sliver Widgets </h2>
+<div align="center">
+   <img src="https://github.com/Dipalig971/advflutterch2/assets/143181151/17350493-a58b-43ed-a099-cedcf585bab0" width=22% height=33%>
+  <video src="https://github.com/Dipalig971/advflutterch2/assets/143181151/f6f25c7b-6c97-4053-8752-0a8801901d26">
+</div>
+
+<div align="center">
+   <img src="https://github.com/Dipalig971/advflutterch2/assets/143181151/9f492349-fbc4-46e3-b0cb-b65dbd617904" width=22% height=33%>
+  <video src="https://github.com/Dipalig971/advflutterch2/assets/143181151/28f8054b-aca1-4bcd-9e0b-d1cf58e63667">
+</div>
