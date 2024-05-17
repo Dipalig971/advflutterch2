@@ -66,3 +66,14 @@
 <a href="https://github.com/Dipalig971/advflutterch2/tree/master/lib/screen/cupertinoactionsheet/view">-> See The Code <-</a>
 </div>
 
+<h2 align="center"> 
+2.7 Date Picker (Android & iOS) </h2>
+<div align="center">
+   <img src="https://github.com/Dipalig971/advflutterch2/assets/143181151/26301822-6ca2-42f9-89f2-b3c726da18eb" width=22% height=33%>
+  <video src="https://github.com/Dipalig971/advflutterch2/assets/143181151/fe2bc82b-8463-4af6-938f-d266b5c0820e">
+</div>
+
+<div align="center">
+   <img src="https://github.com/Dipalig971/advflutterch2/assets/143181151/f0db85a4-3ef7-4ed8-bc1d-8f365b52fc94" width=22% height=33%>
+  <video src="https://github.com/Dipalig971/advflutterch2/assets/143181151/a9834083-5dbc-40ef-b46d-7fa81e2cf844">
+</div>
